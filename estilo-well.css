@@ -6,7 +6,7 @@
 
 body {
   background-color: black;
-  scroll-snap-type: y mandatory; /* Grampeia ao eixo Y */
+   /*scroll-snap-type: y mandatory; Grampeia ao eixo Y */
 }
 
 section {
@@ -216,3 +216,249 @@ h3 { color: greenyellow;}
           font-weight: 10;
             word-spacing: 3px;
               }
+
+@media screen and ( max-width: 414px){
+
+  body {
+    background-color: black;
+    /* scroll-snap-type: y mandatory Grampeia ao eixo Y */
+  }
+  
+  section {
+    height: 100vh; /* Altura total da tela */
+    scroll-snap-align: start; /* Alinha no início da sessão quando faz scroll */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+  }
+  
+  #Linkedin img { width: 2.8em;
+              margin-top: 1em;
+                margin-left: 10em;}
+  
+  #instagram img { width: 4.5em;
+                    margin-top: 0.2em;
+                      margin-left: 0.3em;}
+  
+  #Whatsapp img {width: 3em;
+                  margin-top: 0.9em;
+                    margin-left: 0.3em;
+  }
+  
+  .opcoes { font-family: "Roboto", sans-serif;
+    border: solid 0.8px greenyellow;
+    border-radius: 1em;
+    padding: 1em;
+    width: 24em;
+    height: 5em;
+    margin-left: 0em;
+    margin-top: -19em;
+    
+  }
+  
+  ul { font-family: "Roboto", sans-serif;
+    list-style: none;
+    display: flex;
+    margin-top: 1em;
+    margin-left: 1em;
+   
+  }
+  
+  li a { font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: azure;
+    margin-right: 0.01em;
+    padding: 1em;
+    font-size: 0.61em;
+    margin-left: -0.4em;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-top: 1em;
+    margin-left: -4em;
+  }
+  
+  .line {border-bottom: 0.1em solid greenyellow;
+  width: 18em;
+  margin-top: 1em;}
+  
+  .line-2 {border-bottom: 0.1em solid azure;
+    width: 18em;
+    margin-top: -15em;
+    margin-left: 3.5rem;}
+  
+  .line-3 {border-bottom: 0.1em solid greenyellow;
+    width: 18em;
+    margin-top: 4em;}
+  
+  .line-4 {border-bottom: 0.1em solid greenyellow;
+      width: 18em;
+      margin-top: 49em;
+      margin-left: 3.5em;}
+    
+  
+  h2 {font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1.5em;
+    font-size: 0.8em;
+    margin-top: 1em;
+    margin-left: 1em;
+    word-spacing: 3px;
+    line-height: 30px;
+  }
+  
+  section.sobre-mim h1 {font-family: "Roboto", sans-serif;
+                          margin-top: -1em;
+                          margin-left: 0em;
+                            color: greenyellow; }
+  
+  
+  section.sobre-mim p {font-family: Arial, Helvetica, sans-serif;
+                        font-size: 1em;
+                        margin-top: 1em;
+                          margin-right: 0.5em;
+                            margin-left: 1em;
+                              line-height: 30px;
+                                font-weight: 10;
+                                  word-spacing: 3px;
+  
+  }
+  
+section#meus-estudos h1 { color: azure;
+  margin-top: 21em;
+  margin-left: 0em;
+  }
+  
+  
+#resumo { font-family: Arial, Helvetica, sans-serif;
+           font-size: 1em;
+              margin-top: 1em;
+                margin-right: 0.5em;
+                  margin-left: 1em;
+                    line-height: 30px;
+                      font-weight: 10;
+                        word-spacing: 3px;}
+
+#estudos ul {display: inline-block; flex-direction: column;
+                margin-left: 1em;}
+  
+#estudos h3 { color: greenyellow;
+                  font-family: Arial, Helvetica, sans-serif;
+                  margin-left:1em;
+                      word-spacing: 3px;
+                        font-weight: 1em;
+                        line-height: 30px;
+                          margin-top: 1em;
+  }
+#estudos li { font-family: Arial, Helvetica, sans-serif;
+                font-size: 1em;
+                  word-spacing: 0.3em;
+                    line-height: 25px; 
+}
+                                /*fim do estudo 1*/
+#estudo-2 ul {display: inline-block; flex-direction: column;
+}
+
+#estudo-2 h3 { color: greenyellow;
+                  font-family: Arial, Helvetica, sans-serif;
+                    margin-left:1.9em;
+                      word-spacing: 6px;
+                        font-weight: 1em;
+                          line-height: 30px;
+                            margin-top: 1.0em;
+}
+#estudo-2 li { font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+    word-spacing: 0.3em;
+      line-height: 25px; 
+}
+
+                        /* fim estudo 2*/
+#estudo-3 ul {display: inline-block; flex-direction: column;
+}
+
+#estudo-3 h3 { color: greenyellow;
+                  font-family: Arial, Helvetica, sans-serif;
+                    margin-left:1.9em;
+                      word-spacing: 6px;
+                        font-weight: 1em;
+                          line-height: 30px;
+                            margin-top: 1.0em;
+}
+#estudo-3 li { font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+    word-spacing: 0.3em;
+      line-height: 25px;} 
+  
+  #minha-carreira h1 { font-family: "Roboto", sans-serif;
+                        color: azure;
+                          margin-top: 69em;
+                            margin-left: 4em;
+                              font-size: 1.5em;}
+  
+  #minha-carreira p {font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-top: 1em;
+      margin-right: 0.5em;
+        margin-left: 1em;
+          line-height: 30px;
+            font-weight: 10;
+              word-spacing: 3px;}
+
+                            
+  #trabalho-1 {font-family: Arial, Helvetica, sans-serif;
+                margin-left: 1em;
+                    word-spacing: 3px;
+                      font-weight: 10;
+                      line-height: 30px;
+                      margin-top: 2em;}
+                                    
+  #trabalho-1 ul {margin-left: -2em; display: inline-block; flex-direction: column;
+  }
+  
+  #trabalho-1 li {margin-right: 2em;
+                  margin-left: 2em;
+                    }
+  
+  #trabalho-2 {font-family: Arial, Helvetica, sans-serif;
+                margin-left: 1em;
+                   word-spacing: 3px;
+                    font-weight: 10;
+                       line-height: 30px;
+                           margin-top: 2em;}
+                        
+  #trabalho-2 ul {margin-left: -2em; display: inline-block; flex-direction: column;
+  } 
+  
+  #trabalho-2 li {margin-right: 2em;
+                margin-left: 2em;
+                  } 
+  
+  #trabalho-3 {font-family: Arial, Helvetica, sans-serif;
+                margin-left: 1em;
+                  word-spacing: 3px;
+                    font-weight: 10;
+                      line-height: 30px;
+                          margin-top: 2em;}
+                                  
+  #trabalho-3 ul {margin-left: -2em; display: inline-block; flex-direction: column;
+  } 
+  
+  #trabalho-3 li {margin-right: 2em;
+                margin-left: 2em;
+                  }                 
+  
+  #rodape {color: greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    margin-top: 23em;
+      margin-right: 1em;
+        margin-left: 2em;
+          line-height: 30px;
+            font-weight: 10;
+              word-spacing: 2px;
+                }
+
+}
