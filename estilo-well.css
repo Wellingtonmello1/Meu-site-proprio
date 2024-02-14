@@ -310,7 +310,7 @@ h3 { color: greenyellow;}
   }
   
   section.sobre-mim h1 {font-family: "Roboto", sans-serif;
-                          margin-top: -1em;
+                          margin-top: -3em;
                           margin-left: 0em;
                             color: greenyellow; }
   
@@ -327,7 +327,7 @@ h3 { color: greenyellow;}
   }
   
 section#meus-estudos h1 { color: azure;
-  margin-top: 21em;
+  margin-top: 12em;
   margin-left: 0em;
   }
   
@@ -394,7 +394,7 @@ section#meus-estudos h1 { color: azure;
   /* fim estudo 3 */
   #minha-carreira h1 { font-family: "Roboto", sans-serif;
                         color: azure;
-                          margin-top: 69em;
+                          margin-top: 63em;
                             margin-left: 4em;
                               font-size: 1.5em;}
   
